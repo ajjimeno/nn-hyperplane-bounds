@@ -14,12 +14,7 @@ and activate your environment:
 conda activate bounds
 ```
 
-To install the required packages run:
-
-```
-pip install -r requirements.txt
-```
-
+You need to install numpy, pytorch==1.10.1 and torchvision==0.11.2. Find more information to install pytorch [here](https://pytorch.org/get-started).
 
 To run the experiments on MNIST and CIFAR, run:
 
