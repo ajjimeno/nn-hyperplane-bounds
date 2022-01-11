@@ -32,7 +32,7 @@ def trainloader(tsp = 100, aug = False):
         train_transform = transform
 
 
-    training_set = torchvision.datasets.CIFAR10(root='../data-cifar', train=True,
+    training_set = torchvision.datasets.CIFAR10(root='./data-cifar', train=True,
                                         download=True, transform=train_transform)
 
     if tsp < 100:

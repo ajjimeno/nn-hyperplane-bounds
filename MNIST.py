@@ -35,7 +35,7 @@ def trainloader(tsp = 100, aug=False):
           ])
 
     training_set = datasets.MNIST(
-          '../data-mnist',
+          './data-mnist',
           train=True,
           download=True,
           transform=train_transform)
@@ -51,7 +51,7 @@ def trainloader(tsp = 100, aug=False):
 def testloader():
     return torch.utils.data.DataLoader(
       datasets.MNIST(
-          '../data',
+          './data-mnist',
           train=False,
           download=True,
           transform=transforms.Compose([
