@@ -130,8 +130,7 @@ if __name__ == '__main__':
 
     aug_values = [ False, True ]
 
-    #sets = [ MNIST, CIFAR ]
-    sets = [ MNIST ]
+    sets = [ MNIST, CIFAR ]
 
     for s in sets:
 
@@ -142,7 +141,7 @@ if __name__ == '__main__':
                 for aug in aug_values:
                     for optim_wd in s.owd_weights:
                         for dropout in dropout_values:
-                            for i in range(4):
+                            for i in range(10):
                                 training_set =  s.trainloader(tsp, aug)
 
                                 nmodel = s.model(dropout).to(device)
