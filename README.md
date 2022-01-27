@@ -28,12 +28,14 @@ Experiments will run for a large set of combinations of parameters, consider sel
 
 ## Cite us
 
+The paper is available from arxiv [here](https://arxiv.org/abs/2201.05799).
+
 ```
-@inproceedings{jimeno2022bounds,
+@article{jimeno2022bounds,
   title={Hyperplane bounds for neural feature mappings},
-  author={Antonio Jimeno Yepes},
-  booktitle={arxiv},
-  year={2022},
+  author={Jimeno Yepes, Antonio},
+  journal={arXiv preprint arXiv:2201.05799},
+  year={2022}
 }
 ```
 
